@@ -33,7 +33,7 @@ document.getElementById("product-form").addEventListener("submit", async (e) => 
 
   const newProduct = {
     nombre: document.getElementById("nombre").value,
-    descripcion: document.getElementById("Precio").value,
+    descripcion: document.getElementById("descripcion").value,
     imagen: document.getElementById("imagen").value,
     fecha_entrada: document.getElementById("fecha_entrada").value
   };
