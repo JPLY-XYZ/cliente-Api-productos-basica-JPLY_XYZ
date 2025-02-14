@@ -33,10 +33,12 @@ document.getElementById("product-form").addEventListener("submit", async (e) => 
 
   const newProduct = {
     nombre: document.getElementById("nombre").value,
-    descripcion: document.getElementById("descripcion").value,
+    descripcion: document.getElementById("Precio").value,
     imagen: document.getElementById("imagen").value,
     fecha_entrada: document.getElementById("fecha_entrada").value
   };
+
+  console.log(newProduct);
 
   await fetch(apiUrl, {
     method: "POST",
