@@ -1,4 +1,4 @@
-const apiUrl = "https://nxapi-mongodb-jply-xyz-v1.vercel.app/api/products";
+const apiUrl = "https://nxapi-mongodb-jply-xyzv1.vercel.app/api/products";
 
 document.addEventListener("DOMContentLoaded", loadProducts);
 
